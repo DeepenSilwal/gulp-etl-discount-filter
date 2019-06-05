@@ -1,8 +1,8 @@
 {
-  "name": "gulp-etl-target-csv",
+  "name": "gulp-etl-discount-filter",
   "version": "1.0.3",
-  "repository": "https://github.com/gulpetl/gulp-etl-target-csv",
-  "description": "Convert CSV files to JSON compatible with gulp-etl",
+  "repository": "https://github.com/gulpetl/gulp-etl-discount-filter",
+  "description": "Changes the price filed to give the discount compatible with gulp-etl",
   "main": "dist/js/plugin.js",
   "typings": "dist/types/plugin.d.ts",
   "files": [
@@ -21,6 +21,7 @@
   ],
   "homepage": "https://gulpetl.com",
   "dependencies": {
+    "@types/gulp": "^4.0.6",
     "csv-stringify": "^5.3.0",
     "from2": "^2.3.0",
     "gulp-error-handle": "^1.0.1",
