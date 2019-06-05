@@ -2,7 +2,6 @@
 var PluginError = require('plugin-error');
 var through = require('through2'); 
 
-
 export function myPlugin() {
   let returnErr: any = null;
     return through.obj(function(file: any, encoding: any, cb: Function) {
